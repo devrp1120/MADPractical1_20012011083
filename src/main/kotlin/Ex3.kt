@@ -1,5 +1,5 @@
 fun main() {
-    var er: Int
+    var er: Double
     var name: String
     var branch: String
     var clas: String
@@ -8,21 +8,21 @@ fun main() {
     var uniName: String
     var age: Int
 
-    println("Enter Enrollment Number: ")
-    er = readLine().toString().toInt()
-    println("Enter Name: ")
+    print("Enter Enrollment Number: ")
+    er = readLine().toString().toDouble()
+    print("Enter Name: ")
     name = readLine().toString()
-    println("Enter Branch: ")
+    print("Enter Branch: ")
     branch = readln().toString()
-    println("Enter Class: ")
+    print("Enter Class: ")
     clas = readLine().toString()
-    println("Enter Batch: ")
+    print("Enter Batch: ")
     batch = readLine().toString()
-    println("Enter College Name: ")
+    print("Enter College Name: ")
     clgName = readLine().toString()
-    println("Enter University Name: ")
+    print("Enter University Name: ")
     uniName = readLine().toString()
-    println("Enter Your Age: ")
+    print("Enter Your Age: ")
     age = readLine().toString().toInt()
 
     println("\n********************\n")
