@@ -1,6 +1,6 @@
 fun main() {
     print("Enter a number you want it's factorial: ")
-    var n = readLine()!!.toInt()
+    val n = readLine()!!.toInt()
     println("Factorial using Recursion " + recFact(n))
     println("Factorial using tailrec " + fact(n))
 }
