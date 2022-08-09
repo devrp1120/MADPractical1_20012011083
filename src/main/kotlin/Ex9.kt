@@ -2,10 +2,10 @@ import java.lang.reflect.Array
 
 fun main() {
     println("Enter numbers for array")
-    val a = ArrayList<Int>()
+    var a = ArrayList<Int>()
     for (i in 0..5) {
         print("a[$i] = ")
-        val temp: Int = readLine()!!.toInt()
+        var temp: Int = readLine()!!.toInt()
         a.add(temp)
     }
 
