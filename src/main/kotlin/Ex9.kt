@@ -1,5 +1,3 @@
-import java.lang.reflect.Array
-
 fun main() {
     println("Enter numbers for array")
     var a = ArrayList<Int>()
